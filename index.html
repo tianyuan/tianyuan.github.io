@@ -51,13 +51,13 @@ var i = 0;
 
 function nextItem(data) {
     i = i + 1; // increase i by one
-    i = i % data.length; // if we've gone too high, start from `0` again
+    //i = i % data.length; // if we've gone too high, start from `0` again
     return data[i].tweet; // give us back the item of where we are now
 }
 
 function prevItem(data) {
     if (i === 0) { // i would become 0
-        i = data.length; // so put it at the other end of the array
+      //  i = data.length; // so put it at the other end of the array
     }
     i = i - 1; // decrease by one
     return data[i].tweet; // give us back the item of where we are now
