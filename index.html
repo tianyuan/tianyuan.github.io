@@ -28,7 +28,7 @@
         document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].tweet, data[1].tweet].join(", ");
         
         console.log(data);
-      }
+    
       window.addEventListener('load', function (data) {
     document.getElementById('output').textContent = "Begin"; // initial value
     document.getElementById('prev_button').addEventListener(
@@ -46,7 +46,8 @@
     );
 });
       
-
+  
+      }
 var i = 0;
 
 function nextItem(data) {
