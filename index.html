@@ -26,9 +26,25 @@
         // data comes through as a simple array since simpleSheet is turned on
         alert("Successfully processed " + data.length + " rows!")
         document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].tweet, data[1].tweet].join(", ");
+        
         console.log(data);
       }
-      
+      window.addEventListener('load', function () {
+    document.getElementById('output').textContent = "Begin"; // initial value
+    document.getElementById('prev_button').addEventListener(
+        'click', // we want to listen for a click
+        function (e) { // the e here is the event itself
+            document.getElementById('output').textContent = prevItem();
+        }
+    );
+    
+    document.getElementById('next_button').addEventListener(
+        'click', // we want to listen for a click
+        function (e) { // the e here is the event itself
+            document.getElementById('output').textContent = nextItem();
+        }
+    );
+});
       
 
 var i = 0;
@@ -47,22 +63,7 @@ function prevItem(data) {
     return data[i].tweet; // give us back the item of where we are now
 }
 
-window.addEventListener('load', function () {
-    document.getElementById('output').textContent = "Begin"; // initial value
-    document.getElementById('prev_button').addEventListener(
-        'click', // we want to listen for a click
-        function (e) { // the e here is the event itself
-            document.getElementById('output').textContent = prevItem();
-        }
-    );
-    
-    document.getElementById('next_button').addEventListener(
-        'click', // we want to listen for a click
-        function (e) { // the e here is the event itself
-            document.getElementById('output').textContent = nextItem();
-        }
-    );
-});
+
       
       
       
