@@ -34,14 +34,14 @@
     document.getElementById('prev_button').addEventListener(
         'click', // we want to listen for a click
         function (e) { // the e here is the event itself
-            document.getElementById('output').textContent = prevItem();
+            document.getElementById('output').textContent = prevItem(data);
         }
     );
     
     document.getElementById('next_button').addEventListener(
         'click', // we want to listen for a click
         function (e) { // the e here is the event itself
-            document.getElementById('output').textContent = nextItem();
+            document.getElementById('output').textContent = nextItem(data);
         }
     );
 });
