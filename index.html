@@ -3,6 +3,12 @@
   <body>
 
     <p id="food"></p>
+    
+    <div id="output"></div>
+    <div>
+    <span id="prev_button">Previous</span>
+    <span id="next_button">Next!</span>
+    </div>
 
     <script type="text/javascript" src="tabletop.js"></script>
     <script type="text/javascript">
@@ -15,13 +21,51 @@
       }
 
       window.addEventListener('DOMContentLoaded', init)
-
+ 
       function showInfo(data) {
         // data comes through as a simple array since simpleSheet is turned on
         alert("Successfully processed " + data.length + " rows!")
         document.getElementById("food").innerHTML = "<strong>Foods:</strong> " + [ data[0].tweet, data[1].tweet].join(", ");
         console.log(data);
       }
+      
+      
+
+var i = 0;
+
+function nextItem(data) {
+    i = i + 1; // increase i by one
+    i = i % data.length; // if we've gone too high, start from `0` again
+    return data[i].tweet; // give us back the item of where we are now
+}
+
+function prevItem(data) {
+    if (i === 0) { // i would become 0
+        i = data.length; // so put it at the other end of the array
+    }
+    i = i - 1; // decrease by one
+    return data[i].tweet; // give us back the item of where we are now
+}
+
+window.addEventListener('load', function () {
+    document.getElementById('output').textContent = "Begin"; // initial value
+    document.getElementById('prev_button').addEventListener(
+        'click', // we want to listen for a click
+        function (e) { // the e here is the event itself
+            document.getElementById('output').textContent = prevItem();
+        }
+    );
+    
+    document.getElementById('next_button').addEventListener(
+        'click', // we want to listen for a click
+        function (e) { // the e here is the event itself
+            document.getElementById('output').textContent = nextItem();
+        }
+    );
+});
+      
+      
+      
 
       document.write("The published spreadsheet is located at <a target='_new' href='" + public_spreadsheet_url + "'>" + public_spreadsheet_url + "</a>");        
     </script>
