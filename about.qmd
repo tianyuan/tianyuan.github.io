@@ -1,0 +1,92 @@
+---
+title: "Yuan Tian"
+about:
+  template: solana
+  image: profile.png
+  links:
+    - icon: linkedin
+      text: linkedin
+      href: https://www.linkedin.com/in/yuan-tian-37256727/
+    - icon: github
+      text: Github
+      href: https://github.com/tianyuan09
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.ca/citations?user=8x0i6jAAAAAJ&hl=en
+page-layout: full
+---
+
+ I am a Ph.D. Candidate in the Computational Epidemiology and Public Health Informatics Lab at the Department of Computer Science, University of Saskatchewan. My research has involved a wide variety of data-rich modelling projects including in modelling COVID-19, Tuberculosis (TB), stroke, emergency department wait times, the interface of community service provision and acute care, hospital design, and health services projections. Many analyses have made central use of data science tools. I also led several Big-Data efforts in classifying tweets for COVID-19 and Influenza prediction. 
+
+
+**Research Interests**: infectious disease modelling, health service and research, patient flow, dynamic modelling, machine learning for text analysis
+
+## Education
+
+* **Ph.D.(c) in Computer Science**, [University of Saskatchewan](https://www.usask.ca/), Canada, 2016 - Present
+* **M.Sc. in Computer Science**, [University of Saskatchewan](https://www.usask.ca/), Canada, 2011
+* **B.Mgmt. in Information Management & Information System**, [Jinan University](https://english.jnu.edu.cn/), China, 2009
+
+
+## Professional Experience
+
+* **Visiting Professor**, [Graduate School of Business, Sungkyunkwan University](https://gsb.skku.edu/en/index.do), South Korea, 05/2020 - Present
+    - Full-Time MBA program ranked #1 in Korea and in the top 50s worldwide by The Financial Times Global MBA Rankings.
+    - Teaching MBA courses and supervising students' data science projects.
+        - Programming for Analytics: Python and R (Mean Evaluation: 6.75/7)
+        - Database Management (Mean Evaluation: 6.55/7)
+ 
+* **Researcher, Full-Time**, Saskatchewan Health Quality Council, Canada, 01/2015 - 04/2020
+    - Develop discrete-event models to help understand the bottlenecks of ED overcrowding and streamline the patient flow in the tertiary hospitals in Saskatchewan
+
+* **Research Associate**, Program in Health Services & Systems Research, Duke-NUS Graduate Medical School, Singapore, 01/2013 - 12/2014
+    - Developed System Dynamics models to explore intervention options to reduce the burden of stroke among U.S. veterans; using machine learning algorithm, classification, and regression trees to identifying non-use of community-based long-term care services among older adults in Singapore
+
+* **Research Officer**, Department of Computer Science, University of Saskatchewan, Canada, 11/2011 - 10/2012
+    - Developed system dynamics models to evaluate the cost-effectiveness of health policies for stroke prevention and control; performed rigorous sensitivity and uncertainty analysis.
+
+## Publications 
+
+### Journal Publications
+
+* **​Tian, Y.**, Lich, K. H., Osgood, N. D., Eom, K., & Matchar, D. B. (2016). Linked Sensitivity Analysis, Calibration, and Uncertainty Analysis Using a System Dynamics Model for Stroke Comparative Effectiveness Research. **Medical Decision Making**, 0272989X16643940. 
+* Lich, K. H., **Tian, Y.**, Beadles, C. A., Williams, L. S., Bravata, D. M., Cheng, E. M., ... & Matchar, D. B. (2014). Strategic Planning to Reduce the Burden of Stroke Among Veterans Using Simulation Modeling to Inform Decision Making. **Stroke**, 45(7), 2078-2084.
+* Matchar, D. B., Nguyen, H. V., & **Tian, Y.** (2015). Bundled Payment and Care of Acute Stroke What Does it Take to Make it Work?. **Stroke**, 46(5), 1414-1421. 
+* **Tian, Y.**, Osgood, N. D., Al-Azem, A., & Hoeppner, V. H. (2013). Evaluating the effectiveness of contact tracing on tuberculosis outcomes in Saskatchewan using individual-based modeling. **Health Education & Behavior**, 40(1 suppl), 98S-110S. 
+* Osgood, N. D., Mahamoud, A., Lich, K. H., **Tian, Y.**, Al-Azem, A., & Hoeppner, V. H. (2011). Estimating the relative impact of early-life infection exposure on later-life tuberculosis outcomes in a Canadian sample.**Research in Human Development**, 8(1), 26-47. 
+
+
+### Book Chapter
+* Zia, A., Koliba C., **Tian, Y.** (2013). Governance Network Analysis: Experimental Simulations of Alternate Institutional Designs for Intergovernmental Project Prioritization Processes. **In: COMPACT I: Public Administration in Complexity**. Litchfield Park, AZ; 2013. p. 144-165 (Book chapter).
+
+
+### Conference Proceedings
+
+* Flynn, T., **Tian, Y.**, Masnick, K., McDonnell, G., Huynh, E., Mair, A., & Osgood, N. (2014, December). Discrete choice, agent based and system dynamics simulation of health profession career paths. **In Proceedings of the 2014 Winter Simulation Conference** (pp. 1700-1711). IEEE Press. 
+* **Tian, Y.**, Alawami, F., Al-Azem, A., Osgood, N., Hoeppner, V., & Dutchyn, C. (2011, December). A System Dynamics model of tuberculosis diffusion with respect to contact tracing investigation. **In Proceedings of the Winter Simulation Conference** (pp. 1367-1378). Winter Simulation Conference. 
+* **Tian, Y.**, & Osgood, N. (2011). Comparison between Individual-based and Aggregate Models in the context of Tuberculosis Transmission. **In The 29th International Conference of the System Dynamics Society**, Washington, DC(p. 29). 
+
+### Poster Presentations
+
+* "The Impact of Time of Discharge on Emergency Department Wait Times: a Discrete-event Simulation" **Tian, Y.**, et al. (**Poster presentation at Western Emergency Department Operation Research Conference 2016** at Winnipeg, Canada).
+* "Strategic Investment to Increase Utilisation of Stroke Rehabilitation Services: Insights from a System Dynamics Model." **Tian, Y.**, et al. (**Poster presentation at Medical Decision Making Annual Meeting 2013** at Baltimore, USA)
+* "Using Classification and Regression Tree Analysis to Understand the Social Determinants of Community-based Services Usage." **Tian, Y.**, et al. (**Poster presentation at AcademyHealth Annual Research Meeting 2014** at San Diego)
+* Using Bayesian Learning to Inform Stroke Rehabilitation Policy Suggestions. **Tian, Y.**, et al. (**Poster presentation at Medical Decision Making Annual Meeting 2014** at Singapore)
+
+
+## Working Papers and Projects
+
+* **Using System Science to Support Hospital Capacity Planning During the COVID-19 Pandemic in Saskatchewan**
+
+    - Developed the vaccine module of an Agent-based COVID-19 transmission model used by the Saskatchewan Health Authority for contingency planning
+    - Developed a Hybrid COVID-19 transmission model for acute care capacity planning under various contact tracing scenarios and social measures during the COVID-19 pandemic in Saskatchewan. 
+
+*  **Comparison of Different Strategies to Reduce Emergency Department Wait Times: a Simulation Modelling Study.**
+    - Developed discrete-event simulation models of patient flow for six tertiary hospitals in Saskatchewan to investigate the causes of lengthy Emergency Department wait times.
+
+*  **Twitter-Based Influenza/COVID-19 Detection and Surveillance: A Text Mining Study**
+    - Created and trained classification models to predict likely influenza/COVID-19 cases using Twitter data obtained in Saskatchewan from December 2016 to present. 
+
+
+* **The clinical benefit and cost-effectiveness of adding a smoking cessation program to a simulated lung cancer screening program in Saskatchewan, Canada.** 
+    - Conducted cost-effectiveness of lung cancer screening programs using the OncoSim model, a web-based dynamic microsimulation model that evaluates cancer control strategies. 

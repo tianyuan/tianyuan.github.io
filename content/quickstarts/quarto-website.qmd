@@ -1,0 +1,38 @@
+---
+title: "Quarto Quick Guide"
+format: html
+---
+
+Quick guide to edit, build and deploy this website built with Quarto. 
+
+### Preview Site
+
+Preview the site locally. 
+
+```{.bash filename="Terminal"}
+quarto preview <site-name> 
+# e.g., quarto preview ytian-web
+```
+
+### Edit Nav and Sidebars
+
+[Website navigation](https://quarto.org/docs/guide/) is defined in the [`_quarto.yml`](https://github.com/quarto-dev/quarto-web/blob/main/_quarto.yml) file in the root folder.
+
+Edit the `_quarto.yml` YAML file to add or remove sidebar attributes. 
+
+![](images/sidebar.jpg)
+
+
+### Freeze Posts with Code
+
+Render and [freeze](https://quarto.org/docs/projects/code-execution.html#freeze) a post with `freeze:true` in the `_metadata.yml` file under the `posts` folder. 
+
+You can explicitly re-render it when needed. 
+
+```{.bash filename="Terminal"}
+# render single document (always executes code)
+quarto render document.qmd
+
+# render project subdirectory (always executes code)
+quarto render articles
+```

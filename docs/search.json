@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Yuan Tian",
+    "section": "",
+    "text": "I am a Ph.D. Candidate in the Computational Epidemiology and Public Health Informatics Lab at the Department of Computer Science, University of Saskatchewan. My research has involved a wide variety of data-rich modelling projects including in modelling COVID-19, Tuberculosis (TB), stroke, emergency department wait times, the interface of community service provision and acute care, hospital design, and health services projections. Many analyses have made central use of data science tools. I also led several Big-Data efforts in classifying tweets for COVID-19 and Influenza prediction.\nResearch Interests: infectious disease modelling, health service and research, patient flow, dynamic modelling, machine learning for text analysis"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Yuan Tian",
+    "section": "Education",
+    "text": "Education\n\nPh.D.(c) in Computer Science, University of Saskatchewan, Canada, 2016 - Present\nM.Sc. in Computer Science, University of Saskatchewan, Canada, 2011\nB.Mgmt. in Information Management & Information System, Jinan University, China, 2009"
+  },
+  {
+    "objectID": "about.html#professional-experience",
+    "href": "about.html#professional-experience",
+    "title": "Yuan Tian",
+    "section": "Professional Experience",
+    "text": "Professional Experience\n\nVisiting Professor, Graduate School of Business, Sungkyunkwan University, South Korea, 05/2020 - Present\n\nFull-Time MBA program ranked #1 in Korea and in the top 50s worldwide by The Financial Times Global MBA Rankings.\nTeaching MBA courses and supervising students’ data science projects.\n\nProgramming for Analytics: Python and R (Mean Evaluation: 6.75/7)\nDatabase Management (Mean Evaluation: 6.55/7)\n\n\nResearcher, Full-Time, Saskatchewan Health Quality Council, Canada, 01/2015 - 04/2020\n\nDevelop discrete-event models to help understand the bottlenecks of ED overcrowding and streamline the patient flow in the tertiary hospitals in Saskatchewan\n\nResearch Associate, Program in Health Services & Systems Research, Duke-NUS Graduate Medical School, Singapore, 01/2013 - 12/2014\n\nDeveloped System Dynamics models to explore intervention options to reduce the burden of stroke among U.S. veterans; using machine learning algorithm, classification, and regression trees to identifying non-use of community-based long-term care services among older adults in Singapore\n\nResearch Officer, Department of Computer Science, University of Saskatchewan, Canada, 11/2011 - 10/2012\n\nDeveloped system dynamics models to evaluate the cost-effectiveness of health policies for stroke prevention and control; performed rigorous sensitivity and uncertainty analysis."
+  },
+  {
+    "objectID": "about.html#publications",
+    "href": "about.html#publications",
+    "title": "Yuan Tian",
+    "section": "Publications",
+    "text": "Publications\n\nJournal Publications\n\n​Tian, Y., Lich, K. H., Osgood, N. D., Eom, K., & Matchar, D. B. (2016). Linked Sensitivity Analysis, Calibration, and Uncertainty Analysis Using a System Dynamics Model for Stroke Comparative Effectiveness Research. Medical Decision Making, 0272989X16643940.\nLich, K. H., Tian, Y., Beadles, C. A., Williams, L. S., Bravata, D. M., Cheng, E. M., … & Matchar, D. B. (2014). Strategic Planning to Reduce the Burden of Stroke Among Veterans Using Simulation Modeling to Inform Decision Making. Stroke, 45(7), 2078-2084.\nMatchar, D. B., Nguyen, H. V., & Tian, Y. (2015). Bundled Payment and Care of Acute Stroke What Does it Take to Make it Work?. Stroke, 46(5), 1414-1421.\nTian, Y., Osgood, N. D., Al-Azem, A., & Hoeppner, V. H. (2013). Evaluating the effectiveness of contact tracing on tuberculosis outcomes in Saskatchewan using individual-based modeling. Health Education & Behavior, 40(1 suppl), 98S-110S.\nOsgood, N. D., Mahamoud, A., Lich, K. H., Tian, Y., Al-Azem, A., & Hoeppner, V. H. (2011). Estimating the relative impact of early-life infection exposure on later-life tuberculosis outcomes in a Canadian sample.Research in Human Development, 8(1), 26-47.\n\n\n\nBook Chapter\n\nZia, A., Koliba C., Tian, Y. (2013). Governance Network Analysis: Experimental Simulations of Alternate Institutional Designs for Intergovernmental Project Prioritization Processes. In: COMPACT I: Public Administration in Complexity. Litchfield Park, AZ; 2013. p. 144-165 (Book chapter).\n\n\n\nConference Proceedings\n\nFlynn, T., Tian, Y., Masnick, K., McDonnell, G., Huynh, E., Mair, A., & Osgood, N. (2014, December). Discrete choice, agent based and system dynamics simulation of health profession career paths. In Proceedings of the 2014 Winter Simulation Conference (pp. 1700-1711). IEEE Press.\nTian, Y., Alawami, F., Al-Azem, A., Osgood, N., Hoeppner, V., & Dutchyn, C. (2011, December). A System Dynamics model of tuberculosis diffusion with respect to contact tracing investigation. In Proceedings of the Winter Simulation Conference (pp. 1367-1378). Winter Simulation Conference.\nTian, Y., & Osgood, N. (2011). Comparison between Individual-based and Aggregate Models in the context of Tuberculosis Transmission. In The 29th International Conference of the System Dynamics Society, Washington, DC(p. 29).\n\n\n\nPoster Presentations\n\n“The Impact of Time of Discharge on Emergency Department Wait Times: a Discrete-event Simulation” Tian, Y., et al. (Poster presentation at Western Emergency Department Operation Research Conference 2016 at Winnipeg, Canada).\n“Strategic Investment to Increase Utilisation of Stroke Rehabilitation Services: Insights from a System Dynamics Model.” Tian, Y., et al. (Poster presentation at Medical Decision Making Annual Meeting 2013 at Baltimore, USA)\n“Using Classification and Regression Tree Analysis to Understand the Social Determinants of Community-based Services Usage.” Tian, Y., et al. (Poster presentation at AcademyHealth Annual Research Meeting 2014 at San Diego)\nUsing Bayesian Learning to Inform Stroke Rehabilitation Policy Suggestions. Tian, Y., et al. (Poster presentation at Medical Decision Making Annual Meeting 2014 at Singapore)"
+  },
+  {
+    "objectID": "about.html#working-papers-and-projects",
+    "href": "about.html#working-papers-and-projects",
+    "title": "Yuan Tian",
+    "section": "Working Papers and Projects",
+    "text": "Working Papers and Projects\n\nUsing System Science to Support Hospital Capacity Planning During the COVID-19 Pandemic in Saskatchewan\n\nDeveloped the vaccine module of an Agent-based COVID-19 transmission model used by the Saskatchewan Health Authority for contingency planning\nDeveloped a Hybrid COVID-19 transmission model for acute care capacity planning under various contact tracing scenarios and social measures during the COVID-19 pandemic in Saskatchewan.\n\nComparison of Different Strategies to Reduce Emergency Department Wait Times: a Simulation Modelling Study.\n\nDeveloped discrete-event simulation models of patient flow for six tertiary hospitals in Saskatchewan to investigate the causes of lengthy Emergency Department wait times.\n\nTwitter-Based Influenza/COVID-19 Detection and Surveillance: A Text Mining Study\n\nCreated and trained classification models to predict likely influenza/COVID-19 cases using Twitter data obtained in Saskatchewan from December 2016 to present.\n\nThe clinical benefit and cost-effectiveness of adding a smoking cessation program to a simulated lung cancer screening program in Saskatchewan, Canada.\n\nConducted cost-effectiveness of lung cancer screening programs using the OncoSim model, a web-based dynamic microsimulation model that evaluates cancer control strategies."
+  },
+  {
+    "objectID": "content/blog/index.html",
+    "href": "content/blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\nDescription\n\n\n\n\n\n\n\n\n\nOct 18, 2022\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\n\nOct 15, 2022\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/blog/posts/post-with-code/index.html",
+    "href": "content/blog/posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "content/blog/posts/welcome/index.html",
+    "href": "content/blog/posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "content/cnblog/cnposts/post-with-code/index.html",
+    "href": "content/cnblog/cnposts/post-with-code/index.html",
+    "title": "游戏化学习 - Vim, Git, Bash",
+    "section": "",
+    "text": "中文测试"
+  },
+  {
+    "objectID": "content/cnblog/index.html",
+    "href": "content/cnblog/index.html",
+    "title": "中文",
+    "section": "",
+    "text": "游戏化学习 - Vim, Git, Bash\n\n\n\n\n\n游戏化学习\n\n\n\n\n\n\nOct 18, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/miscellany/index.html",
+    "href": "content/miscellany/index.html",
+    "title": "Miscellany",
+    "section": "",
+    "text": "Latex Math Equations    https://mathpix.com\nAnyLogic/Java Performance Profiling    https://visualvm.github.io/\nTeXmacs for Scientific Editing    https://www.texmacs.org/tmweb/home/welcome.en.html\nPDF-Xchange (paid)    https://pdf-xchange.eu/"
+  },
+  {
+    "objectID": "content/miscellany/index.html#open-source-book-collection",
+    "href": "content/miscellany/index.html#open-source-book-collection",
+    "title": "Miscellany",
+    "section": "Open Source Book Collection",
+    "text": "Open Source Book Collection\n\n\n\n\n\n\n\nBook\nReference\n\n\n\n\n\nMcKinney W. Python for Data Analysis, 3rd Edition. O’Reilly Media, Inc. 2022.  https://wesmckinney.com/book/\n\n\n\nHanck C, Arnold M, Gerber A, et al. Introduction to Econometrics with R. 2021.  https://www.econometrics-with-r.org/    - R code for “Introduction to Econometrics Third Update” by Stock and Watson (2015)\n\n\n\nHvitfeldt E, Silge J. Supervised Machine Learning for Text Analysis in R. Chapman and Hall/CRC 2022.  https://smltar.com/    \n\n\n\nKuhn M, Silge J. Tidy Modeling with R. O’Reilly Media 2022.  https://www.tmwr.org/\n\n\n\nSilge J, Robinson D. Text Mining with R: A Tidy Approach. 1st ed. O’Reilly Media 2017.  https://www.tidytextmining.com/index.html"
+  },
+  {
+    "objectID": "content/miscellany/index.html#courses-or-channels",
+    "href": "content/miscellany/index.html#courses-or-channels",
+    "title": "Miscellany",
+    "section": "Courses or Channels",
+    "text": "Courses or Channels\n\nMIT: The Missing Semester of Your CS Education    https://missing.csail.mit.edu/\n\nVersion Control (Git)    Editors (Vim)\n\n写给非程序员的 Vim 新手教程  https://calon.github.io/Vim-Tutorial-for-Non-Programmers/"
+  },
+  {
+    "objectID": "content/miscellany/index.html#interesting-websites",
+    "href": "content/miscellany/index.html#interesting-websites",
+    "title": "Miscellany",
+    "section": "Interesting Websites",
+    "text": "Interesting Websites\n\nGit: Git Branching    https://learngitbranching.js.org\nVim: Vim Adventures ($25 for 6 months)    https://vim-adventures.com/\nBash: The Wargames about Linux, Bash and Security Concepts.\n\nBandit Game for Beginner    https://overthewire.org/wargames/bandit/\n\nLevel 0-3 Solutions    Level 4-8 Solutions    Level 9-11 Solutions\n\n\nTJCX’s blog, https://blog.tjcx.me/  How to read self-help    The perils of constant feedback    Consume Less, Create More"
+  },
+  {
+    "objectID": "content/miscellany/index.html#others",
+    "href": "content/miscellany/index.html#others",
+    "title": "Miscellany",
+    "section": "Others",
+    "text": "Others\n\nhttps://shenhaihui.github.io/misc/"
+  },
+  {
+    "objectID": "content/quickstarts/git-bash-commands.html",
+    "href": "content/quickstarts/git-bash-commands.html",
+    "title": "QuickStart",
+    "section": "",
+    "text": "Assuming you already have the repo on your local machine.\n\nBe sure your local repo is up-to-date with the remote repo.\n\nTwo basic commands: git pull and git push. The git pull can be divided into git fetch and git merge.\nA, then a common workflow will have 4 steps:\n\nYou ALWAYS need to be sure your local repo is up-to-date with the remote repo.\n\n\n\nTerminal\n\n#Make sure there are no untracked files.\ngit status \n\n#Pull in all the files changed on the remote\ngit fetch\n\n#Comfirm that all the files are ready to merge\ngit status\n\n#A final step in pulling the remote changes into local machine\ngit merge\n\n#A final \"git status\" to confirm everything is good to go\ngit status\n\n\nWith some modifications/changes in your working directory, it is time to inform Git about your new changes using git add -A.\n\n#Stage all the changed or newly added files in the working directory\ngit add -A\n\n#Confirm again.\ngit status\n\nIt’s time to git commit -m!\n\ngit commit -m \"this is my commit\"\n\n#Confirm again\ngit status\n\nThe final git push to the remote repository.\n\ngit push\n\n# Confirm everything is up-to-date\ngit status\n\n\n\n\nGuide to Git Shell"
+  },
+  {
+    "objectID": "content/quickstarts/index.html",
+    "href": "content/quickstarts/index.html",
+    "title": "Quickstarts",
+    "section": "",
+    "text": "Shortcuts for executing specific tasks."
+  },
+  {
+    "objectID": "content/quickstarts/quarto-website.html",
+    "href": "content/quickstarts/quarto-website.html",
+    "title": "Quarto Quick Guide",
+    "section": "",
+    "text": "Quick guide to edit, build and deploy this website built with Quarto.\n\nPreview Site\nPreview the site locally.\n\n\nTerminal\n\nquarto preview <site-name> \n# e.g., quarto preview ytian-web\n\n\n\nEdit Nav and Sidebars\nWebsite navigation is defined in the _quarto.yml file in the root folder.\nEdit the _quarto.yml YAML file to add or remove sidebar attributes.\n\n\n\nFreeze Posts with Code\nRender and freeze a post with freeze:true in the _metadata.yml file under the posts folder.\nYou can explicitly re-render it when needed.\n\n\nTerminal\n\n# render single document (always executes code)\nquarto render document.qmd\n\n# render project subdirectory (always executes code)\nquarto render articles"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Yuan Tian",
+    "section": "",
+    "text": "hello world!"
+  }
+]

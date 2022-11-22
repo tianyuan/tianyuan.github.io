@@ -1,0 +1,10 @@
+---
+title: "游戏化学习 - Vim, Git, Bash"
+description: "游戏化学习"
+date: "2022-10-18"
+categories: [新闻, code, analysis]
+image: "image.jpg"
+title-block-banner: false
+---
+
+中文测试

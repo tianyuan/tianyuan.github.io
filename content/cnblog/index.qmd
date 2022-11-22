@@ -1,0 +1,22 @@
+---
+title: "中文"
+subtitle: "编程; 随笔; 生活"
+listing:
+  contents: cnposts
+  #  contents: # other examples
+  #  - "posts/*.qmd"
+  #  - "lab-notes/*reports.qmd"
+  sort: "date desc"
+  type: default
+    # default:blog style, grid, table 
+  # https://quarto.org/docs/websites/website-listings.html#listing-types
+  categories: true # true, clould, numbered, unnumbered. 
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, description]
+  # https://quarto.org/docs/websites/website-listings.html#listing-fields
+page-layout: full
+title-block-banner: true
+---
+
+

@@ -1,0 +1,19 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  #  contents: # other examples
+  #  - "posts/*.qmd"
+  #  - "lab-notes/*reports.qmd"
+  sort: "date desc"
+  type: table
+  # default:blog style, grid, table 
+  # https://quarto.org/docs/websites/website-listings.html#listing-types
+  categories: true # true, clould, numbered, unnumbered. 
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, description]
+  # https://quarto.org/docs/websites/website-listings.html#listing-fields
+---
+
+

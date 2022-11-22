@@ -1,0 +1,53 @@
+project:
+  type: website
+  output-dir: docs # for Gitpages publish
+
+website:
+  repo-url: https://github.com/tianyuan09/tianyuan09.github.io
+  repo-actions: [edit, issue]
+  title: "Yuan Tian's Digital Garden"
+  navbar:
+    background: primary
+    search: true
+    right:
+      - text: "Home"
+        file: index.qmd
+      - text: "Blog"
+        href: content/blog/index.qmd
+      - text: "Quickstarts"
+        href: content/quickstarts/index.qmd
+      - text: "Miscellany"
+        href: content/miscellany/index.qmd
+      - text: "中文"
+        file: content/cnblog/index.qmd 
+      - text: "About"
+        file: about.qmd
+      - icon: github
+        href: https://github.com/
+  
+  sidebar:
+    - title: "Quickstarts"
+      contents:
+        - content/quickstarts/index.qmd
+        - text: "Quarto Quick Guide"
+          href: content/quickstarts/quarto-website.qmd
+        - text: "Git Bash Command"
+          href: content/quickstarts/git-bash-commands.qmd
+
+    - title: "Home"
+
+    - title: "中文"
+
+  page-footer: "Copyright 2022, Yuan Tian"
+
+format:
+  html:
+    theme:
+      light: flatly # https://quarto.org/docs/output-formats/html-themes.html
+      # theme: cosmo, flatly, journal litera, minty, pulse, sandston, sketchy, spacelab, united - red    
+      dark: darkly
+    css: styles.css
+    toc: true
+    page-layout: full
+
+

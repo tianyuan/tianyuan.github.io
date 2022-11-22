@@ -1,0 +1,59 @@
+---
+title: "Miscellany"
+subtitle: "Collection of open source books, courses, interesting and useful websites or tools"
+listing:
+  contents: items
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
+font-size: large
+---
+
+## Useful Tools
+
+* Latex Math Equations  &nbsp;&nbsp; <https://mathpix.com>
+
+* AnyLogic/Java Performance Profiling  &nbsp;&nbsp; <https://visualvm.github.io/>
+
+* TeXmacs for Scientific Editing &nbsp;&nbsp; <https://www.texmacs.org/tmweb/home/welcome.en.html>
+
+* PDF-Xchange (paid) &nbsp;&nbsp; <https://pdf-xchange.eu/>
+
+## Open Source Book Collection
+
+| Book  | Reference  |
+|--------|--------|
+| ![](images/pfda3.jpg)  | McKinney W. **Python for Data Analysis, 3rd Edition**. O’Reilly Media, Inc. 2022. <br> <https://wesmckinney.com/book/>   |
+| ![](images/itewr.jpg)  | Hanck C, Arnold M, Gerber A, et al. **Introduction to Econometrics with R**. 2021. <br> <https://www.econometrics-with-r.org/>  <br> &nbsp;&nbsp;- R code for *"Introduction to Econometrics Third Update"* by Stock and Watson (2015)  |
+| ![](images/smlftair.jpg)  | Hvitfeldt E, Silge J. **Supervised Machine Learning for Text Analysis in R**. Chapman and Hall/CRC 2022. <br> <https://smltar.com/> <br> &nbsp;&nbsp; |
+| ![](images/tmwr.jpg)  | Kuhn M, Silge J. **Tidy Modeling with R**. O'Reilly Media 2022. <br> <https://www.tmwr.org/>   |
+| ![](images/tmwr2017.jpg)  | Silge J, Robinson D. **Text Mining with R: A Tidy Approach**. 1st ed. O'Reilly Media 2017. <br> <https://www.tidytextmining.com/index.html>  |
+: {tbl-colwidths="[10,90]"}
+
+
+## Courses or Channels
+
+* MIT: The Missing Semester of Your CS Education &nbsp;&nbsp; <https://missing.csail.mit.edu/>
+  * [Version Control (Git)](https://www.youtube.com/watch?v=2sjqTHE0zok&t=1590s) &nbsp;&nbsp; [Editors (Vim)](https://missing.csail.mit.edu/2020/editors/)<br> 
+
+* 写给非程序员的 Vim 新手教程 <br> <https://calon.github.io/Vim-Tutorial-for-Non-Programmers/>
+
+## Interesting Websites
+
+- Git: Git Branching &nbsp;&nbsp; <https://learngitbranching.js.org>
+
+- Vim: Vim Adventures ($25 for 6 months) &nbsp;&nbsp; <https://vim-adventures.com/> 
+
+- Bash: The [Wargames](https://overthewire.org/wargames/) about Linux, Bash and Security Concepts.
+  * *Bandit Game for Beginner* &nbsp;&nbsp; <https://overthewire.org/wargames/bandit/> 
+    * [Level 0-3 Solutions](https://programmercave0.github.io/blog/2019/12/21/Bandit-Level-0-to-Level-5-OverTheWire?ref=hackernoon.com) &nbsp;&nbsp; [Level 4-8 Solutions](https://programmercave0.github.io/blog/2019/12/22/Bandit-Level-4-to-Level-9-OverTheWire?ref=hackernoon.com) &nbsp;&nbsp; [Level 9-11 Solutions](https://programmercave0.github.io/blog/2019/12/24/Bandit-Level-9-to-Level-12-OverTheWire?ref=hackernoon.com)
+
+* TJCX's blog, <https://blog.tjcx.me/> <br> [How to read self-help](https://blog.tjcx.me/p/how-to-read-self-help) &nbsp;&nbsp; [The perils of constant feedback](https://blog.tjcx.me/p/the-perils-of-constant-feedback) &nbsp;&nbsp; [Consume Less, Create More](https://blog.tjcx.me/p/consume-less-create-more)
+
+## Others
+
+* <https://shenhaihui.github.io/misc/>

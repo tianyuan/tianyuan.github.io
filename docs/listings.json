@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/content/blog/index.html",
+    "items": [
+      "/content/blog/posts/post-with-code/index.html",
+      "/content/blog/posts/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/content/cnblog/index.html",
+    "items": [
+      "/content/cnblog/cnposts/post-with-code/index.html"
+    ]
+  },
+  {
+    "listing": "/content/miscellany/index.html",
+    "items": []
+  }
+]
