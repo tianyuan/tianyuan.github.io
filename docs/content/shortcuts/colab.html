@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Yuan Tian’s Digital Garden - Miscellany</title>
+<title>Yuan Tian’s Digital Garden - Colab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -62,42 +60,12 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,11 +90,11 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../content/guide/index.html">
+    <a class="nav-link active" href="../../content/guide/index.html" aria-current="page">
  <span class="menu-text">Guide</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../content/miscellany/index.html" aria-current="page">
+    <a class="nav-link" href="../../content/miscellany/index.html">
  <span class="menu-text">Miscellany</span></a>
   </li>  
   <li class="nav-item">
@@ -150,136 +118,123 @@ ul.task-list li input[type="checkbox"] {
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Colab</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Miscellany</h1>
-            <p class="subtitle lead">Collection of open source books, courses, interesting and useful websites or tools</p>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/guide/index.html" class="sidebar-item-text sidebar-link">Guide</a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Shortcuts</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/shortcuts/notepadplus.html" class="sidebar-item-text sidebar-link">NotePad++</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/shortcuts/colab.html" class="sidebar-item-text sidebar-link active">Colab</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/shortcuts/quarto-website.html" class="sidebar-item-text sidebar-link">Quarto</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/shortcuts/git-bash-commands.html" class="sidebar-item-text sidebar-link">Git Bash</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/shortcuts/powertoys.html" class="sidebar-item-text sidebar-link">Powertoys</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Writing</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/writing/thoughts-on-academic-writing.html" class="sidebar-item-text sidebar-link">Positioning</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#useful-tools" id="toc-useful-tools" class="nav-link active" data-scroll-target="#useful-tools">Useful Tools</a></li>
-  <li><a href="#open-source-book-collection" id="toc-open-source-book-collection" class="nav-link" data-scroll-target="#open-source-book-collection">Open Source Book Collection</a></li>
-  <li><a href="#courses-or-channels" id="toc-courses-or-channels" class="nav-link" data-scroll-target="#courses-or-channels">Courses or Channels</a></li>
-  <li><a href="#interesting-websites" id="toc-interesting-websites" class="nav-link" data-scroll-target="#interesting-websites">Interesting Websites</a></li>
-  <li><a href="#others" id="toc-others" class="nav-link" data-scroll-target="#others">Others</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/tianyuan09/tianyuan09.github.io/edit/main/content/miscellany/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/tianyuan09/tianyuan09.github.io/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content column-page-right" id="quarto-document-content">
 
-
-
-
-<section id="useful-tools" class="level2">
-<h2 class="anchored" data-anchor-id="useful-tools">Useful Tools</h2>
-<ul>
-<li><p>Latex Math Equations &nbsp;&nbsp; <a href="https://mathpix.com" class="uri">https://mathpix.com</a></p></li>
-<li><p>AnyLogic/Java Performance Profiling &nbsp;&nbsp; <a href="https://visualvm.github.io/" class="uri">https://visualvm.github.io/</a></p></li>
-<li><p>TeXmacs for Scientific Editing &nbsp;&nbsp; <a href="https://www.texmacs.org/tmweb/home/welcome.en.html" class="uri">https://www.texmacs.org/tmweb/home/welcome.en.html</a></p></li>
-<li><p>PDF-Xchange (paid) &nbsp;&nbsp; <a href="https://pdf-xchange.eu/" class="uri">https://pdf-xchange.eu/</a></p></li>
-</ul>
-</section>
-<section id="open-source-book-collection" class="level2">
-<h2 class="anchored" data-anchor-id="open-source-book-collection">Open Source Book Collection</h2>
-<table class="table">
-<colgroup>
-<col style="width: 10%">
-<col style="width: 90%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Book</th>
-<th>Reference</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><img src="images/pfda3.jpg" class="img-fluid"></td>
-<td>McKinney W. <strong>Python for Data Analysis, 3rd Edition</strong>. O’Reilly Media, Inc.&nbsp;2022. <br> <a href="https://wesmckinney.com/book/" class="uri">https://wesmckinney.com/book/</a></td>
-</tr>
-<tr class="even">
-<td><img src="images/itewr.jpg" class="img-fluid"></td>
-<td>Hanck C, Arnold M, Gerber A, et al.&nbsp;<strong>Introduction to Econometrics with R</strong>. 2021. <br> <a href="https://www.econometrics-with-r.org/" class="uri">https://www.econometrics-with-r.org/</a> <br> &nbsp;&nbsp;- R code for <em>“Introduction to Econometrics Third Update”</em> by Stock and Watson (2015)</td>
-</tr>
-<tr class="odd">
-<td><img src="images/smlftair.jpg" class="img-fluid"></td>
-<td>Hvitfeldt E, Silge J. <strong>Supervised Machine Learning for Text Analysis in R</strong>. Chapman and Hall/CRC 2022. <br> <a href="https://smltar.com/" class="uri">https://smltar.com/</a> <br> &nbsp;&nbsp;</td>
-</tr>
-<tr class="even">
-<td><img src="images/tmwr.jpg" class="img-fluid"></td>
-<td>Kuhn M, Silge J. <strong>Tidy Modeling with R</strong>. O’Reilly Media 2022. <br> <a href="https://www.tmwr.org/" class="uri">https://www.tmwr.org/</a></td>
-</tr>
-<tr class="odd">
-<td><img src="images/tmwr2017.jpg" class="img-fluid"></td>
-<td>Silge J, Robinson D. <strong>Text Mining with R: A Tidy Approach</strong>. 1st ed.&nbsp;O’Reilly Media 2017. <br> <a href="https://www.tidytextmining.com/index.html" class="uri">https://www.tidytextmining.com/index.html</a></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="courses-or-channels" class="level2">
-<h2 class="anchored" data-anchor-id="courses-or-channels">Courses or Channels</h2>
-<ul>
-<li>MIT: The Missing Semester of Your CS Education &nbsp;&nbsp; <a href="https://missing.csail.mit.edu/" class="uri">https://missing.csail.mit.edu/</a>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=2sjqTHE0zok&amp;t=1590s">Version Control (Git)</a> &nbsp;&nbsp; <a href="https://missing.csail.mit.edu/2020/editors/">Editors (Vim)</a><br></li>
-</ul></li>
-<li>写给非程序员的 Vim 新手教程 <br> <a href="https://calon.github.io/Vim-Tutorial-for-Non-Programmers/" class="uri">https://calon.github.io/Vim-Tutorial-for-Non-Programmers/</a></li>
-</ul>
-</section>
-<section id="interesting-websites" class="level2">
-<h2 class="anchored" data-anchor-id="interesting-websites">Interesting Websites</h2>
-<ul>
-<li><p>Git: Git Branching &nbsp;&nbsp; <a href="https://learngitbranching.js.org" class="uri">https://learngitbranching.js.org</a></p></li>
-<li><p>Vim: Vim Adventures ($25 for 6 months) &nbsp;&nbsp; <a href="https://vim-adventures.com/" class="uri">https://vim-adventures.com/</a></p></li>
-<li><p>Bash: The <a href="https://overthewire.org/wargames/">Wargames</a> about Linux, Bash and Security Concepts.</p>
-<ul>
-<li><em>Bandit Game for Beginner</em> &nbsp;&nbsp; <a href="https://overthewire.org/wargames/bandit/" class="uri">https://overthewire.org/wargames/bandit/</a>
-<ul>
-<li><a href="https://programmercave0.github.io/blog/2019/12/21/Bandit-Level-0-to-Level-5-OverTheWire?ref=hackernoon.com">Level 0-3 Solutions</a> &nbsp;&nbsp; <a href="https://programmercave0.github.io/blog/2019/12/22/Bandit-Level-4-to-Level-9-OverTheWire?ref=hackernoon.com">Level 4-8 Solutions</a> &nbsp;&nbsp; <a href="https://programmercave0.github.io/blog/2019/12/24/Bandit-Level-9-to-Level-12-OverTheWire?ref=hackernoon.com">Level 9-11 Solutions</a></li>
-</ul></li>
-</ul></li>
-<li><p>TJCX’s blog, <a href="https://blog.tjcx.me/" class="uri">https://blog.tjcx.me/</a> <br> <a href="https://blog.tjcx.me/p/how-to-read-self-help">How to read self-help</a> &nbsp;&nbsp; <a href="https://blog.tjcx.me/p/the-perils-of-constant-feedback">The perils of constant feedback</a> &nbsp;&nbsp; <a href="https://blog.tjcx.me/p/consume-less-create-more">Consume Less, Create More</a></p></li>
-</ul>
-</section>
-<section id="others" class="level2">
-<h2 class="anchored" data-anchor-id="others">Others</h2>
-<ul>
-<li><a href="https://shenhaihui.github.io/misc/" class="uri">https://shenhaihui.github.io/misc/</a></li>
-</ul>
-
-
-
-</section>
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Colab</h1>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<p><strong>Add <code>Ctrl + M</code> before whatever keyboard shortcut you use in Jupyter</strong></p>
+<ul>
+<li><p>Insert code cell above/below: <code>Ctrl + M A(bove) / B(below)</code></p></li>
+<li><p>Change cell to code <code>Ctrl + M + Y</code></p></li>
+<li><p>Change cell to markdown <code>Ctrl + M + M</code></p></li>
+<li><p>Delete a cell: <code>Ctrl + M + D</code></p></li>
+<li><p>Previous cell: <code>Alt + K (vim-like)</code></p></li>
+<li><p>Next cell: <code>Alt + J (vim-like)</code></p></li>
+<li><p>Run and insert a new cell: <code>Alt + Enter</code></p></li>
+<li><p>Run and select next cell: <code>Shift + Enter</code></p></li>
+<li><p>Show or hide output: <code>Ctrl + M O(utput)</code></p></li>
+<li><p>Comment current line: <code>Ctrl + /</code></p></li>
+<li><p>Run cell: &nbsp; <code>Ctrl + Enter</code></p></li>
+<li><p>Run part of a cell: <code>Ctrl + Shift + Enter</code></p></li>
+<li><p>Jump to class definition: <code>Ctrl + click class</code></p></li>
+</ul>
+
+
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

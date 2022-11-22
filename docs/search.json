@@ -105,30 +105,51 @@
     "text": "Others\n\nhttps://shenhaihui.github.io/misc/"
   },
   {
-    "objectID": "content/quickstarts/git-bash-commands.html",
-    "href": "content/quickstarts/git-bash-commands.html",
-    "title": "QuickStart",
+    "objectID": "content/shortcuts/colab.html",
+    "href": "content/shortcuts/colab.html",
+    "title": "Colab",
     "section": "",
-    "text": "Assuming you already have the repo on your local machine.\n\nBe sure your local repo is up-to-date with the remote repo.\n\nTwo basic commands: git pull and git push. The git pull can be divided into git fetch and git merge.\nA, then a common workflow will have 4 steps:\n\nYou ALWAYS need to be sure your local repo is up-to-date with the remote repo.\n\n\n\nTerminal\n\n#Make sure there are no untracked files.\ngit status \n\n#Pull in all the files changed on the remote\ngit fetch\n\n#Comfirm that all the files are ready to merge\ngit status\n\n#A final step in pulling the remote changes into local machine\ngit merge\n\n#A final \"git status\" to confirm everything is good to go\ngit status\n\n\nWith some modifications/changes in your working directory, it is time to inform Git about your new changes using git add -A.\n\n#Stage all the changed or newly added files in the working directory\ngit add -A\n\n#Confirm again.\ngit status\n\nIt’s time to git commit -m!\n\ngit commit -m \"this is my commit\"\n\n#Confirm again\ngit status\n\nThe final git push to the remote repository.\n\ngit push\n\n# Confirm everything is up-to-date\ngit status\n\n\n\n\nGuide to Git Shell"
+    "text": "Add Ctrl + M before whatever keyboard shortcut you use in Jupyter\n\nInsert code cell above/below: Ctrl + M A(bove) / B(below)\nChange cell to code Ctrl + M + Y\nChange cell to markdown Ctrl + M + M\nDelete a cell: Ctrl + M + D\nPrevious cell: Alt + K (vim-like)\nNext cell: Alt + J (vim-like)\nRun and insert a new cell: Alt + Enter\nRun and select next cell: Shift + Enter\nShow or hide output: Ctrl + M O(utput)\nComment current line: Ctrl + /\nRun cell:   Ctrl + Enter\nRun part of a cell: Ctrl + Shift + Enter\nJump to class definition: Ctrl + click class"
   },
   {
-    "objectID": "content/quickstarts/index.html",
-    "href": "content/quickstarts/index.html",
-    "title": "Quickstarts",
+    "objectID": "content/shortcuts/git-bash-commands.html",
+    "href": "content/shortcuts/git-bash-commands.html",
+    "title": "Git Bash",
     "section": "",
-    "text": "Shortcuts for executing specific tasks."
+    "text": "Assuming you already have the repo on your local machine.\n\nBe sure your local repo is up-to-date with the remote repo.\n\nTwo basic commands: git pull and git push. The git pull can be divided into git fetch and git merge.\nA, then a common workflow will have 4 steps:\n\nYou ALWAYS need to be sure your local repo is up-to-date with the remote repo.\n\n\n\nTerminal\n\n#Make sure there are no untracked files.\ngit status \n\n#Pull in all the files changed on the remote\ngit fetch\n\n#Comfirm that all the files are ready to merge\ngit status\n\n#A final step in pulling the remote changes into local machine\ngit merge\n\n#A final \"git status\" to confirm everything is good to go\ngit status\n\n\nWith some modifications/changes in your working directory, it is time to inform Git about your new changes using git add -A.\n\n#Stage all the changed or newly added files in the working directory\ngit add -A\n\n#Confirm again.\ngit status\n\nIt’s time to git commit -m!\n\ngit commit -m \"this is my commit\"\n\n#Confirm again\ngit status\n\nThe final git push to the remote repository.\n\ngit push\n\n# Confirm everything is up-to-date\ngit status"
   },
   {
-    "objectID": "content/quickstarts/quarto-website.html",
-    "href": "content/quickstarts/quarto-website.html",
-    "title": "Quarto Quick Guide",
+    "objectID": "content/shortcuts/git-bash-commands.html#reference",
+    "href": "content/shortcuts/git-bash-commands.html#reference",
+    "title": "Git Bash",
+    "section": "Reference",
+    "text": "Reference\n\nGuide to Git Shell"
+  },
+  {
+    "objectID": "content/shortcuts/powertoys.html",
+    "href": "content/shortcuts/powertoys.html",
+    "title": "MS Powertoys",
+    "section": "",
+    "text": "Always on Top: Win + Ctrl +T(op) Fancy Zones:\n\nMove windows between zones: Win + < (or >)\nMax, Min, zone: Win + v (or ^)\nWindow switch in the current zone: Ctrl + Shift + ^ (or v)\nMove window using mouse: click + Shift"
+  },
+  {
+    "objectID": "content/shortcuts/quarto-website.html",
+    "href": "content/shortcuts/quarto-website.html",
+    "title": "Quarto",
     "section": "",
     "text": "Quick guide to edit, build and deploy this website built with Quarto.\n\nPreview Site\nPreview the site locally.\n\n\nTerminal\n\nquarto preview <site-name> \n# e.g., quarto preview ytian-web\n\n\n\nEdit Nav and Sidebars\nWebsite navigation is defined in the _quarto.yml file in the root folder.\nEdit the _quarto.yml YAML file to add or remove sidebar attributes.\n\n\n\nFreeze Posts with Code\nRender and freeze a post with freeze:true in the _metadata.yml file under the posts folder.\nYou can explicitly re-render it when needed.\n\n\nTerminal\n\n# render single document (always executes code)\nquarto render document.qmd\n\n# render project subdirectory (always executes code)\nquarto render articles"
   },
   {
+    "objectID": "content/writing/thoughts-on-academic-writing.html",
+    "href": "content/writing/thoughts-on-academic-writing.html",
+    "title": "Positioning",
+    "section": "",
+    "text": "作为academic writer，其实我们和salesman没什么太大差别。我们也要厚着脸皮一遍一遍去敲reviewer的门，希望他们给出好的review并且予以journal接受。想想salesman要打多少电话才能卖出产品，你其实也需要这样的努力。\n好的research其实是很窄，而不是很宽的。只有窄才能让你达到一定的深度。所谓以小见大，做到小而精致才是一般academic research的追求。\n要注意区分academic writing和tutorial writing的区别。Teaching或者tutorial可能有点像个laundry list, 按照顺序一步一步的做，然后最后到结果。academic writing 则不同，你完成整个工作的顺序，步骤，甚至中途绕弯，在reviewer和读者眼里都不重要.因为他们最关心的是结果（而不是过程，除非你的过程是novel的)。 Academic writing 不一定要按照workflow来写。好的写法是抛出challenge, 然后给出solution methods (但是信息熵要拉满）, 最后给出experiment or review结果.\n两种intro的写法。\n\n如何以小见大。举个例子，研究coin flipping on decision making (非常窄非常小）–> 选择困难症的Implication （见大).\n如何以大见小。举个例子，很多人有选择困难症, 如何resolve (非常大) –> use coin flipping on decision making (非常小而窄的实验)\n\n两种intro的写法, research topic都是关于ALC.\n\n如何以小见大。ALC (definition) –> a factor that leads to access block –> lengthy ED wait times\n如何以大见小。ED waits have many causes -> one of them is access block –> one of the cause of access block is ALC\n\n好的intro应该像一年一度喜剧人里的那种sketch喜剧，一上来，三句话就直接进入主题，保留一定的信息熵（不能直接把solution和结果爆了），然后围绕主题的各种发展, 最后的resolution.\nPositioning很重要。一个研究可能出了好多结果，都没有意思或者lack novelty，本来这就是个探索的过程。你不能在文章中把所有的结果都报了，那没重点。Positioning就是从结果的垃圾堆里找出一点金子，然后专注讲这点金子，而不是show “I did a lot”, 这种不算academic contribution.\n好的开头一定要有contrast, 要有however 或者but. 另外还要有信息熵（一些unknown，不确定）\nlaundry list不好的地方在于：\n\n你的结果没有意思，都是common sense\n你没有taste，不知道如果选择重要的结果\n你没有思考，什么结果重要，什么结果有意思"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Yuan Tian",
+    "title": "Guide",
     "section": "",
     "text": "hello world!"
   }
