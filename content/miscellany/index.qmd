@@ -54,6 +54,10 @@ font-size: large
 
 * TJCX's blog, <https://blog.tjcx.me/> <br> [How to read self-help](https://blog.tjcx.me/p/how-to-read-self-help) &nbsp;&nbsp; [The perils of constant feedback](https://blog.tjcx.me/p/the-perils-of-constant-feedback) &nbsp;&nbsp; [Consume Less, Create More](https://blog.tjcx.me/p/consume-less-create-more)
 
+## 中文资源
+
+* CS自学指南 <https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/Data100/>
+
 ## Others
 
 * <https://shenhaihui.github.io/misc/>
