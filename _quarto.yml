@@ -20,8 +20,6 @@ website:
         href: content/miscellany/index.qmd
       - text: "中文"
         file: content/cnblog/index.qmd 
-      - text: "About"
-        file: about.qmd
       - icon: github
         href: https://github.com/
   
